@@ -33,7 +33,9 @@
       .banner {
         display: flex;
         margin: 1rem;
-        max-width: 1200px;
+        max-width: 1400px;
+        height: 50vh;
+        max-height: 35rem;
       }
       .symbol {
         align-items: center;
@@ -50,21 +52,20 @@
       }
       .banner-pic {
         padding: 0;
-        height: 25rem;
+        height: 100%;
       }
       body {
         background-color: white;
         color: #425664;
         font-family: 'Titillium Web', sans-serif;
         margin: 0px;
+        font-size: 1.25em;
       }
       header {
-        /*position: fixed;*/
         left: 0;
         top: 0;
         width: 100%;
         height: 3rem;
-        /*display: flex;*/
         align-items: center;
         background-color: #C6AD8F;
         color: white;
@@ -74,9 +75,7 @@
         padding: 0px;
         margin: 0px;
         position: absolute;
-        /*top: 3rem;*/
         width: 100%;
-        font-size: 1.25em;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -84,10 +83,8 @@
       section {
         width: 100%;
         padding: 2rem;
-        border-radius: 5%;
       }
       footer {
-        font-size: 1rem;
         color: gray;
         width:  100%;
       }
@@ -124,28 +121,30 @@
     <main>
       <content>
         <div class="banner">
-          <img src="imgs/lena-erickson-colorado.jpg" alt="picture of Lena">
+          <img src="imgs/lena-erickson-colorado.jpg" alt="picture of Lena" class="banner-pic">
           <section>
-            <p><b>Welcome! Glad you're here.</b></p>
+            <p style="color: cadetblue; font-size: 1.5em;"><b>Welcome! Glad you're here.</b></p>
+            <br/>
             <p> I'm Lena, a quantitative professional with interests ranging from technology & analytics to art & design. I'm a curious person who is always looking for new things to learn and build, and new people to learn, build, and work with. Maybe that's you!</p>
             <br/>
-            <p>I'm located in <a href="https://goo.gl/maps/js5SjiB32kjYAoMs9" target="_blank">Oklahoma City</a>, although born and raised in <a href="https://goo.gl/maps/BmQczos6kW5UjCsB6" target="_blank">Stillwater</a>.</p>
+            <p>I'm located in <a href="https://goo.gl/maps/js5SjiB32kjYAoMs9" target="_blank">Oklahoma City</a>, born and raised in <a href="https://goo.gl/maps/BmQczos6kW5UjCsB6" target="_blank">Stillwater</a>.</p>
           </section>
         </div>
         <div class="banner blue-background">  
           <img src="imgs/lukas-blazek-mcSDtbWXUZU-unsplash.jpg" alt="laptop with analytics on screen" class="banner-pic">
           <section>
-            <p>My professional experience lies in mortgage asset modeling and acquisitions. I have a Bachelors degree in Mathematics from the University of Oklahoma, and am currently a Vice President of Mortgage Servicing Acquisitions at MidFirst Bank, with over five years of experience. My work involves forecasting and discounted cash flow analysis, with a heavy focus in research and development. I also have some experience in technology commercialization consulting.</p>
+            <p>My professional experience lies in mortgage asset modeling and acquisitions. I have a Bachelors degree in Mathematics from the University of Oklahoma, and am currently a Vice President at MidFirst Bank, with over five years of experience in pricing and model development. My work involves forecasting and discounted cash flow analysis, with a heavy focus in research and development. I also have some experience in technology commercialization consulting.</p>
             <br/>
-            <p>In my free time, I'm building up my coding skills in web development and python.</p>
+            <p>In my free time, I'm building up my coding skills in web development, python, and sql.</p>
           </section>
         </div>
         <div class="banner brown-background">  
-          <!-- <img src="imgs/jay-adam-kuCU62gZ4v4-unsplash.jpg" alt="white barked tree" class="banner-pic"> -->
           <section>
-            <p>If you think we have professional or other interests in common, I'd love to get to know you. You can reach me by <a href="mailto: lenacerickson@gmail.com">email</a>, or message me on <a href="https://www.linkedin.com/in/lena-erickson-25476b51/" target="_blank">LinkedIn</a>. If you're local, let's grab a coffee! Here's a link to my <a href="https://calendly.com/lenaerickson/coffee-meetup" target="blank">coffee calendar</a>.</p>
+            <p style="color: white; font-size: 1.5em;"><b>Want to continue the conversation?</b></p>
             <br/>
-            <p>I'm on the look-out for community volunteering opportunities and relevant open source collaboration projects. Let me know if you have anything in mind!</p>
+            <p>If you think we have professional or other interests in common, I'd love to get to know you. You can reach me by <a href="mailto: lenacerickson@gmail.com">email</a> or on <a href="https://www.linkedin.com/in/lena-erickson-25476b51/" target="_blank">LinkedIn</a>. If you're local, let's grab a coffee! Here's a link to my <a href="https://calendly.com/lenaerickson/coffee-meetup" target="blank">coffee calendar</a>.</p>
+            <br/>
+            <p>I'm especially on the look-out for community volunteering opportunities and relevant open source collaboration projects. Let me know if you have anything in mind!</p>
           </section>
           <img src="imgs/wade-austin-ellis-yFjq8vqMxP4-unsplash.jpg" alt="cold brewed coffee" class="banner-pic">
         </div>
