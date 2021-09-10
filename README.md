@@ -1,2 +1,3 @@
 # lecerick.github.io
- Personal Website
+ Personal website using github pages
+ https://lenaerickson.com/
