@@ -1,3 +1,3 @@
-# lecerick.github.io
+# lenacamille.github.io
  Personal website using github pages
- https://lenaerickson.com/
+ https://lenadelozier.com/
